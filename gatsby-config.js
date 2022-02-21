@@ -6,9 +6,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `StartCy`,
-    description: `Automated liquidity protocol on Ethereum`,
-    author: `@Uniswap`,
+    title: `Personal Blog`,
+    description: `My personal blog`,
+    author: `@Elias`,
     menulinks: menu,
     siteUrl: `https://uniswap.org`,
     repository: `https://github.com/Uniswap/uniswap-org`,
