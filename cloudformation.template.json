@@ -1,0 +1,257 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "uniswap.org site",
+  "Outputs": {
+    "DeploymentAccessKeyId": {
+      "Description": "Access key ID for deploying to the S3 bucket",
+      "Value": {
+        "Ref": "DeploymentUserAccessKey"
+      }
+    },
+    "DeploymentSecretAccessKey": {
+      "Description": "Secret access key for deploying to the S3 bucket",
+      "Value": {
+        "Fn::GetAtt": [
+          "DeploymentUserAccessKey",
+          "SecretAccessKey"
+        ]
+      }
+    }
+  },
+  "Resources": {
+    "DeploymentUser": {
+      "Type": "AWS::IAM::User",
+      "Description": "The user that will be used to deploy to the assets bucket",
+      "Properties": {
+        "Policies": [
+          {
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Sid": "1",
+                  "Effect": "Allow",
+                  "Action": [
+                    "s3:PutObject",
+                    "s3:GetObject",
+                    "s3:PutBucketWebsite",
+                    "s3:ListBucket",
+                    "s3:DeleteObject",
+                    "s3:GetBucketLocation"
+                  ],
+                  "Resource": [
+                    {
+                      "Fn::Join": [
+                        "",
+                        [
+                          "arn:aws:s3:::",
+                          {
+                            "Ref": "AssetsBucket"
+                          },
+                          "/*"
+                        ]
+                      ]
+                    },
+                    {
+                      "Fn::Join": [
+                        "",
+                        [
+                          "arn:aws:s3:::",
+                          {
+                            "Ref": "AssetsBucket"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "PolicyName": "deploy-to-assets-bucket"
+          }
+        ]
+      }
+    },
+    "DeploymentUserAccessKey": {
+      "Type": "AWS::IAM::AccessKey",
+      "Description": "Access key for the deployment user",
+      "Properties": {
+        "UserName": {
+          "Ref": "DeploymentUser"
+        }
+      }
+    },
+    "ACMCertificate": {
+      "Type": "AWS::CertificateManager::Certificate",
+      "Description": "The certificate used to secure the CloudFront distribution",
+      "Properties": {
+        "DomainName": "uniswap.org",
+        "ValidationMethod": "DNS",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "uniswap.org"
+          },
+          {
+            "Key": "Stack",
+            "Value": {
+              "Ref": "AWS::StackName"
+            }
+          }
+        ]
+      }
+    },
+    "AssetsBucket": {
+      "Type": "AWS::S3::Bucket",
+      "Description": "Bucket containing the site deployed files",
+      "Properties": {
+        "VersioningConfiguration": {
+          "Status": "Suspended"
+        },
+        "WebsiteConfiguration": {
+          "IndexDocument": "index.html",
+          "ErrorDocument": "404.html"
+        },
+        "Tags": [
+          {
+            "Key": "Template",
+            "Value": {
+              "Ref": "AWS::StackName"
+            }
+          }
+        ]
+      }
+    },
+    "AssetsBucketPolicy": {
+      "Type": "AWS::S3::BucketPolicy",
+      "Description": "Policy that makes the bucket public read",
+      "Properties": {
+        "Bucket": {
+          "Ref": "AssetsBucket"
+        },
+        "PolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Sid": "PublicRead",
+              "Effect": "Allow",
+              "Principal": "*",
+              "Action": [
+                "s3:GetObject",
+                "s3:GetObjectVersion"
+              ],
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "AssetsBucket",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "Sid": "DenyPutFromOtherUsers",
+              "Effect": "Deny",
+              "NotPrincipal": {
+                "AWS": {
+                  "Fn::GetAtt": [
+                    "DeploymentUser",
+                    "Arn"
+                  ]
+                }
+              },
+              "Action": "s3:PutObject",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    {
+                      "Fn::GetAtt": [
+                        "AssetsBucket",
+                        "Arn"
+                      ]
+                    },
+                    "/*"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "CloudFrontDistribution": {
+      "Type": "AWS::CloudFront::Distribution",
+      "Description": "Distribution that produces a CNAME for the assets bucket",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Template",
+            "Value": {
+              "Ref": "AWS::StackName"
+            }
+          }
+        ],
+        "DistributionConfig": {
+          "Comment": "uniswap.org",
+          "Enabled": true,
+          "Aliases": [
+            "uniswap.org"
+          ],
+          "DefaultRootObject": "index.html",
+          "HttpVersion": "http2",
+          "Origins": [
+            {
+              "Id": "assets-bucket",
+              "DomainName": {
+                "Fn::Select": [
+                  1,
+                  {
+                    "Fn::Split": [
+                      "http://",
+                      {
+                        "Fn::GetAtt": [
+                          "AssetsBucket",
+                          "WebsiteURL"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "CustomOriginConfig": {
+                "OriginProtocolPolicy": "http-only"
+              }
+            }
+          ],
+          "ViewerCertificate": {
+            "AcmCertificateArn": {
+              "Ref": "ACMCertificate"
+            },
+            "SslSupportMethod": "sni-only"
+          },
+          "DefaultCacheBehavior": {
+            "Compress": true,
+            "AllowedMethods": [
+              "GET",
+              "HEAD"
+            ],
+            "ForwardedValues": {
+              "QueryString": false
+            },
+            "TargetOriginId": "assets-bucket",
+            "ViewerProtocolPolicy": "redirect-to-https"
+          }
+        }
+      }
+    }
+  }
+}

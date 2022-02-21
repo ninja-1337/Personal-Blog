@@ -1,0 +1,17 @@
+# gatsby files
+.cache/
+public
+
+# dependencies
+.next/
+node_modules/
+
+#misc
+**/.DS_Store
+.now
+yarn-error.log
+.vercel
+.env
+.env.*
+
+.vscode
