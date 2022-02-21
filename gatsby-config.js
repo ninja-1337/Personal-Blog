@@ -108,9 +108,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-twitter-cards`,
             options: {
-              title: 'StartCy', // website title
+              title: 'Personal Blog', // website title
               separator: '|', // default
-              author: '@Uniswap',
+              author: '@Elias',
               background: require.resolve('./static/images/twitter_card_bg.jpg'), // path to 1200x630px file or hex code, defaults to black (#000000)
               fontColor: '#FF3093', // defaults to white (#ffffff)
               fontStyle: 'sans-serif', // default

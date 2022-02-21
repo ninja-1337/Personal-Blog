@@ -3,16 +3,16 @@ const menu = [
     name: 'Developers',
     sublinks: [
       {
-        name: 'StartCy Documentation',
+        name: 'Documentation',
         link: 'https://docs.uniswap.org/'
       },
-      { name: 'StartCy Whitepaper', link: '/whitepaper-v3.pdf' },
-      { name: 'GitHub', link: 'https://github.com/Uniswap' },
-      { name: 'Bug Bounty', link: '/bug-bounty' }
+      { name: 'Personal Blog ', link: '/whitepaper-v3.pdf' },
+      { name: 'GitHub', link: 'https://github.com/Elias-95' },
+      { name: 'Other', link: '/bug-bounty' }
     ]
   },
   {
-    name: 'Governance',
+    name: 'Royalties Tokens',
     sublinks: [
       {
         name: 'SCC Token ',
@@ -25,7 +25,7 @@ const menu = [
     ]
   },
   {
-    name: 'Community',
+    name: 'Social Media',
     sublinks: [
       { name: 'Discord', link: 'https://discord.gg/FCfyBSbCU5' },
       { name: 'Twitter', link: 'https://twitter.com/Uniswap' },
