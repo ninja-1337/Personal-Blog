@@ -1,6 +1,5 @@
-# uniswap-org
+# Personal Blog
 
-Contains the source code for the [uniswap.org](https://uniswap.org) homepage.
 
 ## Development
 
