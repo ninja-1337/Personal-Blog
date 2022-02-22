@@ -3,8 +3,8 @@ const menu = [
     name: 'Topics',
     sublinks: [
       {
-        name: 'Documentation',
-        link: 'https://docs.uniswap.org/'
+        name: 'Personal Portfolio',
+        link: 'https://evangelou.me'
       },
       { name: 'Personal Blog ', link: '/whitepaper-v3.pdf' },
       { name: 'Ethical Hacking', link: 'https://github.com/Elias-95' },
