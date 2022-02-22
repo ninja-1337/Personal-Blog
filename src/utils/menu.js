@@ -1,27 +1,29 @@
 const menu = [
   {
-    name: 'Developers',
+    name: 'Topics',
     sublinks: [
       {
         name: 'Documentation',
         link: 'https://docs.uniswap.org/'
       },
       { name: 'Personal Blog ', link: '/whitepaper-v3.pdf' },
-      { name: 'GitHub', link: 'https://github.com/Elias-95' },
-      { name: 'Other', link: '/bug-bounty' }
+      { name: 'Ethical Hacking', link: 'https://github.com/Elias-95' },
+      { name: 'Web3 Development', link: '/bug-bounty' },
+      { name: 'Life', link: 'https://github.com/Elias-95' }
+    
     ]
   },
   {
-    name: 'Royalties Tokens',
+    name: 'Royalties',
     sublinks: [
       {
-        name: 'SCC Token ',
+        name: 'EASYS Token ',
         link: '/blog/uni'
       },
-      { name: 'Governance Forum', link: 'https://gov.uniswap.org/' },
-      { name: 'Sybil (Delegates)', link: 'https://sybil.org/' },
-      { name: 'Voting Portal', link: 'https://app.uniswap.org/#/vote' },
-      { name: 'Documentation', link: '/docs/v2/governance/overview' }
+      { name: 'EasySec Forum', link: 'https://gov.uniswap.org/' },
+      { name: 'Mentoring', link: 'https://sybil.org/' },
+      { name: 'Private Mentoring', link: 'https://app.uniswap.org/#/vote' },
+      { name: 'Be a Royalty', link: '/docs/v2/governance/overview' }
     ]
   },
   {
@@ -29,6 +31,7 @@ const menu = [
     sublinks: [
       { name: 'Discord', link: 'https://discord.gg/FCfyBSbCU5' },
       { name: 'Twitter', link: 'https://twitter.com/Uniswap' },
+      { name: 'GitHub', link: 'https://github.com/Elias-95' },
       { name: 'Reddit', link: 'https://www.reddit.com/r/Uniswap' }
     ]
   },
@@ -52,7 +55,7 @@ const menu = [
         link: 'https://help.uniswap.org/'
       },
       {
-        name: 'Logo & Brand',
+        name: 'Start your own version of this Blog',
         link: '/about#brand'
       }
     ]
