@@ -1,7 +1,7 @@
 ---
 title: 'Introducing EASYS Token'
 date: '2020-09-16'
-author: '🦄 '
+author: 'Elias Evangelou '
 featuredImage: ./banner.jpg
 previewText: 'EASYS, the EasySec Labs token, is live!'
 ---
