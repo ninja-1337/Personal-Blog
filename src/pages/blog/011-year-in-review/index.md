@@ -1,6 +1,6 @@
 ---
 title: "Elias Evangelou Year in Review: 2021"
-date: '2022-1-27'
+date: '2022-01-27'
 author: 'Elias Evangelou '
 featuredImage: ./banner.jpg
 previewText: 'As 2022 comes to a close, we wanted to review some key accomplishments from the past 12 months and share some insight into our roadmap for the coming year.'
