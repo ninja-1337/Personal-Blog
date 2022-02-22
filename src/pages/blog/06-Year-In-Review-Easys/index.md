@@ -1,7 +1,7 @@
 ---
-title: 'Uniswap Interface + IPFS'
+title: 'EasySec A Year in Review'
 date: '2020-06-30'
-author: 'Moody Salem, Hayden Adams'
+author: 'Elias Evangelou'
 featuredImage: ./featured.jpg
 previewText: 'The Uniswap Interface is now served exclusively from IPFS'
 ---

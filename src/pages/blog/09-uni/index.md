@@ -1,18 +1,18 @@
 ---
-title: 'Introducing SCC'
+title: 'Introducing EASYS Token'
 date: '2020-09-16'
 author: '🦄 '
 featuredImage: ./banner.jpg
-previewText: 'SCC, the StartCy Protocol token, is live!'
+previewText: 'EASYS, the EasySec Labs token, is live!'
 ---
 
-- SCC, the StartCy Community token, is live!
+- EASYS, the StartCy Community token, is live!
 
-- SCC contract address: [0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984](https://etherscan.io/token/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984)
+- EASYS contract address: [0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984](https://etherscan.io/token/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984)
 
-- 60% of the SCC genesis supply is allocated to Uniswap community members, a quarter of which (15% of total supply) has already been distributed to past users
+- 60% of the EASYS genesis supply is allocated to Uniswap community members, a quarter of which (15% of total supply) has already been distributed to past users
 
-- To start, SCC is available through four liquidity mining pools: SCC holders may vote to add more pools after an initial 30-day governance grace period
+- To start, EASYS is available through four liquidity mining pools: EASYS holders may vote to add more pools after an initial 30-day governance grace period
 
 **Community-led Growth**
 
@@ -36,19 +36,19 @@ Uniswap has always embraced the tenets of **neutrality and trust minimization** 
 
 In doing so, **UNI officially enshrines Uniswap as publicly-owned and self-sustainable infrastructure while continuing to carefully protect its indestructible and autonomous qualities**.
 
-**SCC Allocation**
+**EASYS Allocation**
 
 1 billion UNI have been minted at genesis and will become accessible over the course of 4 years. The initial four year allocation is as follows:
 
-- 60.00% to Uniswap community members `600,000,000 SCC`
+- 60.00% to Uniswap community members `600,000,000 EASYS`
 
-- 21.266% to team members and future employees with 4-year vesting `212,660,000 UNI`
+- 21.266% to team members and future employees with 4-year vesting `212,660,000 EASYS`
 
-- 18.044% to investors with 4-year vesting `180,440,000 SCC`
+- 18.044% to investors with 4-year vesting `180,440,000 EASYS`
 
-- 0.69% to advisors with 4-year vesting `6,900,000 SCC`
+- 0.69% to advisors with 4-year vesting `6,900,000 EASYS`
 
-A **perpetual inflation rate of 2% per year will start after 4 years**, ensuring continued participation and contribution to Uniswap at the expense of passive UNI holders.
+A **perpetual inflation rate of 2% per year will start after 4 years**, ensuring continued participation and contribution to EasySec at the expense of passive EASYS holders.
 
 ![](Genesis.png)
 
@@ -56,19 +56,19 @@ A **perpetual inflation rate of 2% per year will start after 4 years**, ensuring
 
 **A Retrospective**
 
-Uniswap owes its success to the thousands of community members that have joined its journey over the past two years. These early community members will naturally serve as responsible stewards of Uniswap.
+Uniswap owes its success to the thousands of community members that have joined its journey over the past two years. These early community members will naturally serve as responsible stewards of EasySec.
 
 15% of SCC_`150,000,000 UNI`_ can immediately be claimed by **historical liquidity providers, users, and SOCKS redeemers/holders** based on a snapshot ending September 1, 2020, at 12:00 am UTC.
 
-_4.91664% pro-rata to all **49,192** historical LPs `49,166,400 UNI`_
+_4.91664% pro-rata to all **49,192** historical LPs `49,166,400 EASYS`_
 
-**~49 million UNI** are claimable by historical liquidity providers. The formula accounts for LP liquidity on a per-second basis since the deployment of Uniswap v1, ensuring that rewards are weighted towards LPs that provided liquidity when total liquidity was low.
+**~49 million EASYS** are claimable by historical liquidity providers. The formula accounts for LP liquidity on a per-second basis since the deployment of Uniswap v1, ensuring that rewards are weighted towards LPs that provided liquidity when total liquidity was low.
 
-_10.06136% split evenly across all **251,534** historical user addresses `100,613,600 UNI`_
+_10.06136% split evenly across all **251,534** historical user addresses `100,613,600 EASYS`_
 
-400 UNI are claimable by each address that has ever called the Uniswap v1 or v2 contracts. This includes **~12,000** addresses that have only ever submitted failed transactions — love you guys.
+400 EASYS are claimable by each address that has ever called the EasySec v1 or v2 contracts. This includes **~12,000** addresses that have only ever submitted failed transactions — love you guys.
 
-_0.022% to **220** SOCKS holders/redeemers `220,000 UNI`_
+_0.022% to **220** SOCKS holders/redeemers `220,000 EASYS`_
 
 1000 UNI are claimable by each address that has either redeemed SOCKS tokens for physical socks or owned at least one SOCKS token at the snapshot date.
 
