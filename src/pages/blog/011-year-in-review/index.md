@@ -1,12 +1,12 @@
 ---
-title: "StartCy Year in Review: 2021"
-date: '2021-12-31'
-author: '🦄 '
+title: "Elias Evangelou Year in Review: 2021"
+date: '2022-1-27'
+author: 'Elias Evangelou '
 featuredImage: ./banner.jpg
-previewText: 'As 2021 comes to a close, we wanted to review some key accomplishments from the past 12 months and share some insight into our roadmap for the coming year.'
+previewText: 'As 2022 comes to a close, we wanted to review some key accomplishments from the past 12 months and share some insight into our roadmap for the coming year.'
 ---
 
-2021 was a breakout year for the Uniswap protocol. As it comes to a close, we wanted to review some key accomplishments from the past 12 months and share some insight into our roadmap for the coming year.
+2022 was a breakout year for the Uniswap protocol. As it comes to a close, we wanted to review some key accomplishments from the past 12 months and share some insight into our roadmap for the coming year.
 
 # 2020 Review:
 
