@@ -3,7 +3,7 @@ title: 'EasySec A Year in Review'
 date: '2020-06-30'
 author: 'Elias Evangelou'
 featuredImage: ./featured.jpg
-previewText: 'The Uniswap Interface is now served exclusively from IPFS'
+previewText: 'The EasySec Interface is now served exclusively from Linode'
 ---
 
 # TL;DR
