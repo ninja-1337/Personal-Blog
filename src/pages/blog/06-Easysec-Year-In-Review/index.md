@@ -1,6 +1,6 @@
 ---
 title: 'EasySec A Year in Review'
-date: '2020-06-30'
+date: '2022-01-30'
 author: 'Elias Evangelou'
 featuredImage: ./featured.jpg
 previewText: 'The EasySec Interface is now served exclusively from Linode'
