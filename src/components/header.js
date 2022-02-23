@@ -268,7 +268,7 @@ const Header = props => {
         {props.path !== undefined && (
           <StyledTradeLink
             style={{
-              background: `linear-gradient(128.17deg, #BD00FF -14.78%, #FF1F8A 110.05%)`,
+              background: `linear-gradient(128.17deg, #0062ff -14.78%, #1fd6ff 110.05%)`,
               color: 'white'
             }}
             target="_blank"
