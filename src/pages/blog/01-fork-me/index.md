@@ -23,5 +23,15 @@ Stay tuned for V1 and V2 where I discuss Uniswap’s first year on Ethereum main
 
 # Edit Info and Write your own Blogs
 
+After you fork the blog you will probably want to edit some info and Write your own Blogs.
+You can do that By navigating to the Personal Blog project in your github account and press . on your keyboard.
+This will open a web editor for your project.
+
+# Edit a Blog entry
+
+# Commit and push changes to the Blog entry
+
+
+
 
 <small>Thanks to Uniswap.</small>
