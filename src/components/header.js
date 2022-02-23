@@ -274,7 +274,7 @@ const Header = props => {
             target="_blank"
             href="https://evangelou.me"
           >
-            Launch App
+            My Portfolio
           </StyledTradeLink>
         )}
       </StyledNav>
