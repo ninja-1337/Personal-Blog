@@ -21,9 +21,9 @@ const menu = [
         link: '/blog/easys-token'
       },
       { name: 'POAPS', link: '/blog/poap-events' },
-      { name: 'Mentoring', link: '/other-blog/mentoring' },
-      { name: 'Private Mentoring', link: '/other-blog/private-mentoring' },
-      { name: 'Be a Royalty', link: '/other-blog/royalty' }
+      { name: 'Mentoring', link: '/blog/mentoring' },
+      { name: 'Private Mentoring', link: '/blog/private-mentoring' },
+      { name: 'Be a Royalty', link: '/blog/royalty' }
     ]
   },
   {
