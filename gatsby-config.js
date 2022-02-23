@@ -48,6 +48,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `hacking-blog`,
+        path: `${__dirname}/src/pages/hacking-blog/`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `docs`,
         path: `${__dirname}/src/pages/docs/`
       }
