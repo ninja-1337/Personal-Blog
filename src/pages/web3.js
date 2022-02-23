@@ -203,7 +203,7 @@ const Blog = props => {
       <SEO title="Uniswap Blog" path={props.location.pathname} />
       <StyledBlog>
         <PageTitleWrapper>
-          <h2 style={{ fontSize: '56px' }}>Blog</h2>
+          <h2 style={{ fontSize: '56px' }}>Web3 Blog</h2>
           <p>
             News, stories, and announcements from Uniswap.{' '}
             <a style={{ paddingBottom: '1rem' }} href="/rss.xml" target="_blank">
