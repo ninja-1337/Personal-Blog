@@ -21,9 +21,9 @@ const menu = [
         link: '/blog/easys-token'
       },
       { name: 'POAPS', link: '/blog/poap-events' },
-      { name: 'Mentoring', link: 'https://sybil.org/' },
-      { name: 'Private Mentoring', link: 'https://app.uniswap.org/#/vote' },
-      { name: 'Be a Royalty', link: '/docs/v2/governance/overview' }
+      { name: 'Mentoring', link: '/other-blog/mentoring' },
+      { name: 'Private Mentoring', link: '/other-blog/private-mentoring' },
+      { name: 'Be a Royalty', link: '/other-blog/royalty' }
     ]
   },
   {
@@ -31,7 +31,7 @@ const menu = [
     sublinks: [
       { name: 'Discord', link: 'https://discord.gg/FCfyBSbCU5' },
       { name: 'Twitter', link: 'https://twitter.com/Uniswap' },
-      { name: 'GitHub', link: 'https://github.com/Elias-95' },
+      { name: 'GitHub', link: 'https://github.com/ninja-1337' },
       { name: 'Reddit', link: 'https://www.reddit.com/r/Uniswap' }
     ]
   },
@@ -52,7 +52,7 @@ const menu = [
       },
       {
         name: 'Help & Tutorials',
-        link: 'https://help.uniswap.org/'
+        link: '/other-blogs/tuts/'
       },
       {
         name: 'Start your own version of this Blog',
