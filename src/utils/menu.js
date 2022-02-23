@@ -7,8 +7,8 @@ const menu = [
         link: 'https://evangelou.me'
       },
       { name: 'Personal Blog ', link: '/blog/' },
-      { name: 'Ethical Hacking', link: '/hacking-blog/' },
-      { name: 'Web3 Development', link: '/web3-blog/' },
+      { name: 'Ethical Hacking', link: '/hacking/' },
+      { name: 'Web3 Development', link: '/web3/' },
       { name: 'Life', link: 'https://github.com/ninja-1337' }
     
     ]
@@ -52,7 +52,7 @@ const menu = [
       },
       {
         name: 'Help & Tutorials',
-        link: '/other-blogs/tuts/'
+        link: '/other/tuts/'
       },
       {
         name: 'Start your own version of this Blog',

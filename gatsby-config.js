@@ -48,22 +48,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `hacking-blog`,
-        path: `${__dirname}/src/pages/hacking-blog/`
+        name: `hacking`,
+        path: `${__dirname}/src/pages/hacking/`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `web3-blog`,
-        path: `${__dirname}/src/pages/web3-blog/`
+        name: `web3`,
+        path: `${__dirname}/src/pages/web3/`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `other-blog`,
-        path: `${__dirname}/src/pages/other-blog/`
+        name: `other`,
+        path: `${__dirname}/src/pages/other/`
       }
     },
     {
