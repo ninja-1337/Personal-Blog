@@ -6,10 +6,10 @@ const menu = [
         name: 'Personal Portfolio',
         link: 'https://evangelou.me'
       },
-      { name: 'Personal Blog ', link: '/whitepaper-v3.pdf' },
+      { name: 'Personal Blog ', link: '/blog/' },
       { name: 'Ethical Hacking', link: '/hacking-blog/' },
-      { name: 'Web3 Development', link: '/bug-bounty' },
-      { name: 'Life', link: 'https://github.com/Elias-95' }
+      { name: 'Web3 Development', link: '/web3-blog/' },
+      { name: 'Life', link: 'https://github.com/ninja-1337' }
     
     ]
   },
