@@ -55,6 +55,20 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `web3-blog`,
+        path: `${__dirname}/src/pages/web3-blog/`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `other-blog`,
+        path: `${__dirname}/src/pages/other-blog/`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `docs`,
         path: `${__dirname}/src/pages/docs/`
       }
