@@ -222,7 +222,7 @@ module.exports = {
             }
             `,
             output: '/rss.xml',
-            title: 'StartCy Blog RSS Feed'
+            title: 'EasySec Blog RSS Feed'
           }
         ]
       }

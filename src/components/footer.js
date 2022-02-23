@@ -67,7 +67,7 @@ const StyledGithub = styled(Github)`
 const Footer = () => {
   return (
     <StyledFooter>
-      <p style={{ margin: 0 }}>© {new Date().getFullYear()} StartCy</p>
+      <p style={{ margin: 0 }}>© {new Date().getFullYear()} EasySec</p>
       <StyledFooterLinkSection>
         <StyledFooterLink to="/about">About</StyledFooterLink>
         <StyledFooterLink to="/disclaimer" style={{ marginRight: '12px' }}>
