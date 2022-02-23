@@ -18,7 +18,7 @@ const menu = [
     sublinks: [
       {
         name: 'EASYS Token ',
-        link: '/blog/uni'
+        link: '/blog/easys-token'
       },
       { name: 'POAPS', link: 'https://gov.uniswap.org/' },
       { name: 'Mentoring', link: 'https://sybil.org/' },
