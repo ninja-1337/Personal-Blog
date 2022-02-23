@@ -20,7 +20,7 @@ const menu = [
         name: 'EASYS Token ',
         link: '/blog/easys-token'
       },
-      { name: 'POAPS', link: 'https://gov.uniswap.org/' },
+      { name: 'POAPS', link: '/blog/poap-events' },
       { name: 'Mentoring', link: 'https://sybil.org/' },
       { name: 'Private Mentoring', link: 'https://app.uniswap.org/#/vote' },
       { name: 'Be a Royalty', link: '/docs/v2/governance/overview' }
@@ -56,7 +56,7 @@ const menu = [
       },
       {
         name: 'Start your own version of this Blog',
-        link: '/about#brand'
+        link: '/blog/fork-me'
       }
     ]
   }
