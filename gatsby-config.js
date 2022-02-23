@@ -117,6 +117,9 @@ module.exports = {
           default: require.resolve('./src/layouts'),
           docs: require.resolve(`./src/layouts/docs`),
           blog: require.resolve(`./src/layouts/blogPost`),
+          hacking: require.resolve(`./src/layouts/hacking`),
+          web3: require.resolve(`./src/layouts/web3`),
+          other: require.resolve(`./src/layouts/other`),
           faq: require.resolve(`./src/layouts/faq`)
         },
         remarkPlugins: [require(`remark-math`)],
