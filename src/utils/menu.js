@@ -52,7 +52,7 @@ const menu = [
       },
       {
         name: 'Help & Tutorials',
-        link: '/other/tuts/'
+        link: '/other/tut/'
       },
       {
         name: 'Start your own version of this Blog',
