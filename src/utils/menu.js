@@ -20,7 +20,7 @@ const menu = [
         name: 'EASYS Token ',
         link: '/blog/uni'
       },
-      { name: 'EasySec Forum', link: 'https://gov.uniswap.org/' },
+      { name: 'POAPS', link: 'https://gov.uniswap.org/' },
       { name: 'Mentoring', link: 'https://sybil.org/' },
       { name: 'Private Mentoring', link: 'https://app.uniswap.org/#/vote' },
       { name: 'Be a Royalty', link: '/docs/v2/governance/overview' }
