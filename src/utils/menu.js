@@ -9,7 +9,7 @@ const menu = [
       { name: 'Personal Blog ', link: '/blog/' },
       { name: 'Ethical Hacking', link: '/hacking/' },
       { name: 'Web3 Development', link: '/web3/' },
-      { name: 'Life', link: 'https://github.com/ninja-1337' }
+      { name: 'Fun', link: 'https://github.com/ninja-1337' }
     
     ]
   },
