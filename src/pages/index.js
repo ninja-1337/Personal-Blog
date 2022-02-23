@@ -196,7 +196,54 @@ const Blog = props => {
       }
     }
   `)
-
+  const hacking = props => {
+    const data = useStaticQuery(graphql`
+      {
+        allMdx(filter: { fileAbsolutePath: { regex: "/hacking/" } }, sort: { order: DESC, fields: frontmatter___date }) {
+          edges {
+            node {
+              id
+              excerpt(pruneLength: 250)
+              frontmatter {
+                date(formatString: "MMMM Do, YYYY")
+                title
+                previewText
+                featuredImage {
+                  childImageSharp {
+                    fluid(maxWidth: 1200) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+              fields {
+                slug
+                readingTime {
+                  text
+                }
+              }
+            }
+            next {
+              frontmatter {
+                title
+              }
+              fields {
+                slug
+              }
+            }
+            previous {
+              frontmatter {
+                title
+              }
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }
+    `)
+  
   return (
     <Layout path={props.location.pathname}>
       <BG />
