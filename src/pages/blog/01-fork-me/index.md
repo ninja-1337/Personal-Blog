@@ -30,6 +30,7 @@ Import the github repo you just forked.<br/>
 ![](import.jpg)
 Click Next on all and then Build Site.<br/>
 ![](Config.jpg)
+<br/>
 
 # Editing Blog Info 
 
