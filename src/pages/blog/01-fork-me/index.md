@@ -22,9 +22,12 @@ Atleast You got the files ready.
 ---
 # Deploy To Gatsby Cloud
 For this you will have to have a Gatby Cloud account.<br/>
-After You Login to your account create a new Site
+After You Login to your account create a new Site<br/>
 ![](Gatsbynewsite.jpg)
-
+<br/>
+<br/>
+Import the github repo you just forked.<br/>
+![](import.jpg)
 
 # Edit Info and Write your own Blogs
 
