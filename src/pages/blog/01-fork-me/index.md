@@ -40,7 +40,8 @@ Click Next on all and then Build Site.<br/>
 
 After you fork the blog you will probably want to edit some info and Write your own Blogs.<br/>
 You can do that By navigating to the Personal Blog project in your github account and then pressing . on your keyboard.<br/>
-This will open a web editor for your project.
+This will open a web editor for your project directly in your browser.
+![](Config.jpg)
 
 # Write your own Blogs
 
