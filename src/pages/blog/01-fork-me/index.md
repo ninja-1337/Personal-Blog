@@ -27,15 +27,19 @@ After You Login to your account create a new Site<br/>
 <br/>
 <br/>
 Import the github repo you just forked.<br/>
+
 ![](import.jpg)
+
 Click Next on all and then Build Site.<br/>
+
 ![](Config.jpg)
+
 <br/>
 
 # Editing Blog Info 
 
 After you fork the blog you will probably want to edit some info and Write your own Blogs.<br/>
-You can do that By navigating to the Personal Blog project in your github account and press . on your keyboard.<br/>
+You can do that By navigating to the Personal Blog project in your github account and then pressing . on your keyboard.<br/>
 This will open a web editor for your project.
 
 # Write your own Blogs
