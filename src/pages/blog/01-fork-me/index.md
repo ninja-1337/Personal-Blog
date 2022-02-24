@@ -40,19 +40,24 @@ Click Next on all and then Build Site.<br/>
 
 After you fork the blog you will probably want to edit some info and Write your own Blogs.<br/>
 You can do that By navigating to the Personal Blog project in your github account and then pressing . on your keyboard.<br/>
-This will open a web editor for your project directly in your browser.
+This will open a web editor for your project directly in your browser.<br/>
 ![](gitide.jpg)
+<br/>
 You can edit the main page by editing index.js in /src folder
+<br/>
 ![](editmainpage.jpg)
 
 # Write your own Blogs
 
 # Edit a Menu entries
+
 You can edit the main page by editing menu.js in /src/utils folder
+<br/>
 ![](editmenu.jpg)
-
-# Commit and push changes to the Blog entry
-
+<br/>
+# Commit and push changes to the Blog entry by pressing the tick button
+<br/>
+![](commit.jpg)
 
 # Use your own domain name.
 
