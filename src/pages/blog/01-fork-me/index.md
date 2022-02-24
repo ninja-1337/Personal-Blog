@@ -6,7 +6,7 @@ featuredImage: ./featured.jpg
 previewText: 'This is a builders golden nouget, my way of giving backto the community'
 ---
 
-# V0 — Fork GitHub repo
+# Fork GitHub repo
 
 If you dont already hace a github account you will need to create one here https://github.com/join.<br/><br/>
 Then you will need to navigate to https://github.com/ninja-1337/Personal-Blog and press the fork button on the upper right corner.<br/>
@@ -25,7 +25,7 @@ For this you will have to have a Gatby Cloud account.<br/>
 After You Login to your account create a new Site<br/>
 ![](Gatsbynewsite.jpg)
 <br/>
-<br/>
+
 Import the github repo you just forked.<br/>
 
 ![](import.jpg)

@@ -200,12 +200,12 @@ const Blog = props => {
   return (
     <Layout path={props.location.pathname}>
       <BG />
-      <SEO title="Uniswap Blog" path={props.location.pathname} />
+      <SEO title="EasySec Blog" path={props.location.pathname} />
       <StyledBlog>
         <PageTitleWrapper>
           <h2 style={{ fontSize: '56px' }}>Personal Blog</h2>
           <p>
-            News, stories, and announcements from Uniswap.{' '}
+            News, stories, and announcements from EasySec.{' '}
             <a style={{ paddingBottom: '1rem' }} href="/rss.xml" target="_blank">
               Subscribe
             </a>
