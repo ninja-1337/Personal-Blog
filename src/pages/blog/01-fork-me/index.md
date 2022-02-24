@@ -10,6 +10,7 @@ previewText: 'This is a builders golden nouget, my way of giving backto the comm
 
 If you dont already hace a github account you will need to create one here https://github.com/join.<br/>
 Then you will need to navigate to https://github.com/ninja-1337/Personal-Blog and press the fork button on the upper right corner.<br/>
+![](Genesis.png)
 Congratz You forked your own personal blog
 
 
