@@ -8,8 +8,8 @@ previewText: 'This is a builders golden nouget, my way of giving backto the comm
 
 # V0 — Fork GitHub repo
 
-If you dont already hace a github account you will need to create one here https://github.com/join.
-Then you will need to navigate to https://github.com/ninja-1337/Personal-Blog and press the fork button on the upper right corner.
+If you dont already hace a github account you will need to create one here https://github.com/join.<br/>
+Then you will need to navigate to https://github.com/ninja-1337/Personal-Blog and press the fork button on the upper right corner.<br/>
 Congratz You forked your own personal blog
 
 
