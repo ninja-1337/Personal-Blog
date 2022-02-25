@@ -256,7 +256,7 @@ const About = props => {
     <Layout path={props.location.pathname}>
       <BG />
 
-      <SEO title="About" path={props.location.pathname} />
+      <SEO title="About Me" path={props.location.pathname} />
       <StyledAbout>
         <span style={{ marginTop: '5rem' }}>
           <Title style={{ paddingBottom: '4rem' }}>
@@ -285,26 +285,21 @@ const About = props => {
           </Numbers>
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
             <p>
-              EasySec empowers developers, liquidity providers and traders to participate in a financial marketplace
+              EasySec empowers developers, liquidity providers and traders to participate in a financial builders experience
               that is open and accessible to all.
             </p>
             <p>We are committed to open source software and building on the decentralized web.</p>
 
             <div style={{ display: 'flex', width: '100%', margin: 0 }}>
-              <InternalLink to="/blog/uni">UNI token</InternalLink>
-              <InternalLink to="/whitepaper.pdf">
-                V2 Whitepaper <span style={{ fontSize: '11px' }}>↗</span>
-              </InternalLink>
-              <InternalLink to="/whitepaper-v3.pdf">
-                V3 Whitepaper <span style={{ fontSize: '11px' }}>↗</span>
-              </InternalLink>
+              <InternalLink to="/blog/easys-token">EASYS token</InternalLink>
+            
               <InternalLink to="/faq">FAQ</InternalLink>
             </div>
           </StyledSectionFlex>
 
           <StyledSectionFlex id="jobs" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Jobs</h2>
-            <p>We are looking for talented people to join our team!</p>
+            <p>Always looking for talented people to join the Builders community!</p>
 
             <span>
               <a href="https://jobs.lever.co/EasySec">
@@ -321,7 +316,7 @@ const About = props => {
             </p>
 
             <p>
-              We encourage anyone facing issues with their wallet, transaction or StartCy related question to join our
+              We encourage anyone facing issues with their wallet, transaction or EasySec related question to join our
               active community discord or explore the{' '}
               <ExternalLink href={'https://help.EasySec.org'}>help & tutorial</ExternalLink> site.
             </p>
