@@ -50,12 +50,12 @@ EASYS will vest to the governance treasury on a continuous basis according to th
 
 Team, investor, and advisor EASYS allocations will have tokens locked up on an identical schedule.
 
-**Liquidity Mining**
+**Liquidity Farming**
 
-An initial liquidity mining program will go live September 11 2022 12:00am UTC. The initial program will run until December 31 2022 12:00am UTC and target the following four pools on EasySec:
+An initial liquidity farming program will go live September 11 2022 12:00am UTC. The initial program will run until December 31 2022 12:00am UTC and target the following four pools on EasySec:
 
 
-5,000,000 UNEASYSI will be allocated per pool to LPs proportional to liquidity, which roughly translates to:
+5,000,000 EASYS will be allocated per pool to LPs proportional to liquidity, which roughly translates to:
 
 - 83,333 EASYS per pool per day
 
