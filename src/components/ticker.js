@@ -207,7 +207,7 @@ export default function Ticker() {
 
   return (
     initialized && (
-      <MarqueeWrapper href="https://uniswap.info/" className="ticker" data-speed="0.25" data-pausable="true">
+      <MarqueeWrapper href="https://easysec.info/" className="ticker" data-speed="0.25" data-pausable="true">
         <div>
           {Array.from({ length: totalElements }).map((_, idx) => {
             return <AnimatingEl stat={UniStats.key((idx % 4) + 1)} key={idx} />

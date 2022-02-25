@@ -307,7 +307,7 @@ const About = props => {
             <p>We are looking for talented people to join our team!</p>
 
             <span>
-              <a href="https://jobs.lever.co/Uniswap">
+              <a href="https://jobs.lever.co/EasySec">
                 {' '}
                 <h3>Full list of roles available at StartCy Labs</h3>
               </a>
@@ -330,10 +330,10 @@ const About = props => {
               <ExternalLink href={'https://discord.gg/FCfyBSbCU5'}>
                 Discord <span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>
-              <ExternalLink href={'https://twitter.com/Uniswap'}>
+              <ExternalLink href={'https://twitter.com/EasySec'}>
                 Twitter <span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>
-              <ExternalLink href={'https://www.reddit.com/r/Uniswap'}>
+              <ExternalLink href={'https://www.reddit.com/r/EasySec'}>
                 Reddit <span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>
             </div>

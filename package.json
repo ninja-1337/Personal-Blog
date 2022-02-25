@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/org",
   "private": true,
-  "description": "Uniswap homepage and knowledgebase",
+  "description": "EasySec homepage and knowledgebase",
   "version": "0.1.0",
   "author": "Callil Capuozzo <callil.capuozzo@gmail.com>",
   "engines": {
@@ -119,9 +119,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-org"
+    "url": "https://github.com/EasySec/uniswap-org"
   },
   "bugs": {
-    "url": "https://github.com/Uniswap/uniswap-org/issues"
+    "url": "https://github.com/EasySec/uniswap-org/issues"
   }
 }
