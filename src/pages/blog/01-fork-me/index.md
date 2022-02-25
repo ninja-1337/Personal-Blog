@@ -9,7 +9,7 @@ previewText: 'This is a builders golden nouget, my way of giving backto the comm
 # Fork GitHub repo
 
 If you dont already hace a github account you will need to create one here https://github.com/join.<br/><br/>
-Then you will need to navigate to https://github.com/ninja-1337/Personal-Blog and press the fork button on the upper right corner.<br/>
+Navigate to https://github.com/ninja-1337/Personal-Blog and press the fork button on the upper right corner.<br/>
 ![](open.jpg)
 <br/>
 Congratz You forked your own personal blog
@@ -26,7 +26,7 @@ After You Login to your account create a new Site<br/>
 ![](Gatsbynewsite.jpg)
 <br/>
 
-Import the github repo you just forked.<br/>
+Import the github repository you just forked.<br/>
 
 ![](import.jpg)
 
@@ -38,21 +38,34 @@ Click Next on all and then Build Site.<br/>
 
 # Editing Blog Info 
 
-After you fork the blog you will probably want to edit some info and Write your own Blogs.<br/>
-You can do that By navigating to the Personal Blog project in your github account and then pressing . on your keyboard.<br/>
-This will open a web editor for your project directly in your browser.
+After you fork the blog you will probably want to edit some information and author your own Blogs.<br/>
+Navigate to the Personal Blog project in your github account and then press . on your keyboard.<br/>
+This will open a web editor for your project directly in your browser.<br/>
 ![](gitide.jpg)
+<br/>
 You can edit the main page by editing index.js in /src folder
+<br/>
 ![](editmainpage.jpg)
 
 # Write your own Blogs
-
+Each Folder in the /src/blog is a blog entry.<br/>
+The index.md file is waht cosnists of the blog.<br/>
+The format used is markdown.<br/>
+Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format<br/>
 # Edit a Menu entries
+
 You can edit the main page by editing menu.js in /src/utils folder
+<br/> 
+
 ![](editmenu.jpg)
 
-# Commit and push changes to the Blog entry
+<br/>
 
+# Commit and push changes to the Blog entry by adding a commit message and pressing the tick button
+
+<br/>
+
+![](commit.jpg)
 
 # Use your own domain name.
 
