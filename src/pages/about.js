@@ -317,13 +317,13 @@ const About = props => {
           <StyledSectionFlex id="contact" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Contact</h2>
             <p>
-              To get in touch, please email <a href="mailto:contact@uniswap.org">contact@uniswap.org</a>
+              To get in touch, please email <a href="mailto:contact@EasySec.org">contact@EasySec.org</a>
             </p>
 
             <p>
               We encourage anyone facing issues with their wallet, transaction or StartCy related question to join our
               active community discord or explore the{' '}
-              <ExternalLink href={'https://help.uniswap.org'}>help & tutorial</ExternalLink> site.
+              <ExternalLink href={'https://help.EasySec.org'}>help & tutorial</ExternalLink> site.
             </p>
 
             <div style={{ display: 'flex', width: '100%', margin: 0 }}>
