@@ -52,11 +52,16 @@ You can edit the main page by editing index.js in /src folder
 # Edit a Menu entries
 
 You can edit the main page by editing menu.js in /src/utils folder
-<br/>
+<br/> 
+
 ![](editmenu.jpg)
+
 <br/>
+
 # Commit and push changes to the Blog entry by pressing the tick button
+
 <br/>
+
 ![](commit.jpg)
 
 # Use your own domain name.
