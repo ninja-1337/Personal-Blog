@@ -9,14 +9,14 @@ const links = [
     sublinks: [
       {
         title: 'Token Swaps',
-        link: 'https://docs.uniswap.org/protocol/guides/swaps/single-swaps',
-        description: 'Simplify the process of integrating Uniswap into your project.',
+        link: 'https://docs.EasySec.org/protocol/guides/swaps/single-swaps',
+        description: 'Simplify the process of integrating EasySec into your project.',
         tag: 'reference',
         icon: '📦'
       },
       {
         title: 'Programmable Liquidity',
-        link: 'https://docs.uniswap.org/protocol/reference/periphery/NonfungiblePositionManager',
+        link: 'https://docs.EasySec.org/protocol/reference/periphery/NonfungiblePositionManager',
         description: 'Explore the NFT position manager.',
         tag: 'tutorial',
         icon: '🧼'
@@ -24,14 +24,14 @@ const links = [
 
       {
         title: 'Flash Swaps',
-        link: 'https://docs.uniswap.org/protocol/guides/flash-integrations/inheritance-constructors',
-        description: 'Withdraw the reserves of any ERC20 token on Uniswap and execute arbitrary logic.',
+        link: 'https://docs.EasySec.org/protocol/guides/flash-integrations/inheritance-constructors',
+        description: 'Withdraw the reserves of any ERC20 token on EasySec and execute arbitrary logic.',
         tag: 'guide',
         icon: '⚡'
       },
       {
         title: 'Oracles',
-        link: 'https://docs.uniswap.org/protocol/concepts/V3-overview/oracle',
+        link: 'https://docs.EasySec.org/protocol/concepts/V3-overview/oracle',
         description: 'Highly decentralized, manipulation-resistant, on-chain price feeds.',
         icon: '🔮'
       }
@@ -64,9 +64,9 @@ const links = [
     name: 'Liquidity',
     sublinks: [
       {
-        title: 'Anatomy of a Uniswap Pool',
+        title: 'Anatomy of a EasySec Pool',
         link: '/docs/v2/pools',
-        description: 'An overview of what a Uniswap liquidity pool.'
+        description: 'An overview of what a EasySec liquidity pool.'
       },
       {
         title: 'Understanding Liquidity Returns',
@@ -81,7 +81,7 @@ const links = [
       {
         title: 'Core Concepts',
         link: '/docs/v2/protocol-overview',
-        description: 'A high level technical overview of the Uniswap protocol.'
+        description: 'A high level technical overview of the EasySec protocol.'
       }
     ]
   }

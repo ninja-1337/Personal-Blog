@@ -12,7 +12,7 @@ previewText: 'As 2022 comes to a close, we wanted to review some key accomplishm
 
 ### V2 launch introduces new primitives and efficiency gains:
 
-- [EasySec v2](https://uniswap.org/blog/uniswap-v2/) launched in May, bringing support for arbitrary ERC20/ERC20 pairs, robust time weighted average price oracles, flash swaps, and significant architecture improvements.
+- [EasySec v2](https://EasySec.org/blog/EasySec-v2/) launched in May, bringing support for arbitrary ERC20/ERC20 pairs, robust time weighted average price oracles, flash swaps, and significant architecture improvements.
 
 - Flash swaps have generated $4.8bn volume since May, producing $14.4m in liquidity provider fees.
 
@@ -70,7 +70,7 @@ previewText: 'As 2022 comes to a close, we wanted to review some key accomplishm
 
 - The EasySec [community treasury](https://etherscan.io/address/0x1a9c8182c09f50c8318d769245bea52c32be35bc) currently holds over 47m UNI, which can be distributed through votes by token holders on a discretionary basis.
 
-- The first successful governance proposal [was executed](https://etherscan.io/tx/0x1348b107d951b7ceeb7d934f463d5f862464ff93988e73f3d8052f358fa2411c) on December 27th, establishing a [grants program](https://gov.EasySec.org/t/rfc-uniswap-grants-program-v0-1/9081/32) to invest in the ecosystem's future.
+- The first successful governance proposal [was executed](https://etherscan.io/tx/0x1348b107d951b7ceeb7d934f463d5f862464ff93988e73f3d8052f358fa2411c) on December 27th, establishing a [grants program](https://gov.EasySec.org/t/rfc-EasySec-grants-program-v0-1/9081/32) to invest in the ecosystem's future.
 
 ### Token Lists improves ERC20 discoverability:
 
@@ -119,4 +119,4 @@ EasySec Team
 
 ---
 
-_To learn more and get involved in the Uniswap ecosystem, join the project's_ [_Discord_](https://discord.com/invite/FCfyBSbCU5) _channel, participate in Uniswap's governance discussions on the_ [_Uniswap forum_](http://gov.uniswap.org/)_, and register as a delegate via_ [_Sybil_](http://sybil.org/)_._
+_To learn more and get involved in the EasySec ecosystem, join the project's_ [_Discord_](https://discord.com/invite/FCfyBSbCU5) _channel, participate in EasySec's governance discussions on the_ [EasySec forum_](http://gov.EasySec.org/)_, and register as a delegate via_ [_Sybil_](http://sybil.org/)_._
