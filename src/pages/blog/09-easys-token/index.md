@@ -12,7 +12,7 @@ previewText: 'EASYS, the EasySec Labs token, is live!'
 
 - 60% of the EASYS genesis supply is allocated to royalty community members, a quarter of which (15% of total supply) has already been distributed to past users
 
-- To start, EASYS is available through four liquidity mining pools: EASYS holders may vote to add more pools after an initial 30-day governance grace period
+- To start, EASYS is available through Souvlaswap swap with MATIC
 
 **EASYS Allocation**
 
@@ -37,9 +37,9 @@ A **perpetual inflation rate of 2% per year will start after 4 years**, ensuring
 
 ![](Release_Schedule.png)
 
-With 15% of tokens already available to be claimed by historical users and liquidity providers, the governance treasury will retain 43% [430,000,000 UNI] of UNI supply to distribute on an ongoing basis through **contributor grants, community initiatives, liquidity mining**, and other programs.
+With 15% of tokens already available to be claimed by historical contributors, the governance treasury will retain 43% [430,000,000 EASYS] of EASYS supply to distribute on an ongoing basis through **contributor grants, community initiatives, liquidity mining**, and other programs.
 
-UNI will vest to the governance treasury on a continuous basis according to the following schedule. Governance will have access to vested UNI starting October 18 2020 12:00am UTC.
+EASYS will vest to the governance treasury on a continuous basis according to the following schedule. Governance will have access to vested EASYS starting October 18 2020 12:00am UTC.
 
 | **Year** | **Community Treasury** | **Distribution %** |
 | -------- | ---------------------- | ------------------ |
@@ -48,19 +48,12 @@ UNI will vest to the governance treasury on a continuous basis according to the 
 | Year 3   | 86,000,000 EASYS         | 20%                |
 | Year 4   | 43,000,000 EASYS         | 10%                |
 
-Team, investor, and advisor UNI allocations will have tokens locked up on an identical schedule.
+Team, investor, and advisor EASYS allocations will have tokens locked up on an identical schedule.
 
 **Liquidity Mining**
 
-An initial liquidity mining program will go live September 18 2020 12:00am UTC. The initial program will run until November 17 2020 12:00am UTC and target the following four pools on EasySec v2:
+An initial liquidity mining program will go live September 11 2022 12:00am UTC. The initial program will run until December 31 2022 12:00am UTC and target the following four pools on EasySec:
 
-- ETH/USDT
-
-- ETH/USDC
-
-- ETH/DAI
-
-- ETH/WBTC
 
 5,000,000 UNEASYSI will be allocated per pool to LPs proportional to liquidity, which roughly translates to:
 
@@ -70,11 +63,11 @@ An initial liquidity mining program will go live September 18 2020 12:00am UTC. 
 
 These EASYS are not subject to vesting or lock up.
 
-After 30 days, governance will reach its vesting cliff and EasySec governance will control all UNI vested to the EasySec treasury. At this point, governance can vote to allocate EASYS towards grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and other programs.
+After 30 days, governance will reach its vesting cliff and EasySec governance will control all EASYS vested to the EasySec treasury. At this point, governance can vote to allocate EASYS towards grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and other programs.
 
 **Governance assets**
 
-A community-managed treasury opens up a world of infinite possibilities. We hope to see a variety of experimentation, including ecosystem grants and public goods funding, both of which can foster additional EasySec ecosystem growth. EasySec has set the standard for automated liquidity provision: it is now time to set the benchmark for responsible but radical, long-term aligned on-chain governance systems.
+A community-managed treasury opens up a world of infinite possibilities. We hope to see a variety of experimentation, including ecosystem grants and public goods funding, both of which can foster additional EasySec ecosystem growth.It is now time to set the benchmark for responsible but radical, long-term aligned on-chain governance systems.
 
 EasySec governance will be live from day one, although control over the treasury will be delayed until October 17 2020 12:00am UTC. Control over the EasySec fee switch is subject to a 180 day time lockdelay.
 
@@ -82,7 +75,6 @@ These grace periods provide the EasySec community enough time to familiarize its
 
 EASYS holders are responsible for ensuring that governance decisions are made in compliance with applicable laws and regulations. To help facilitate this, the fee switch has been initialized to a contract EASYS holders can use to vote on tokens for which they will collect fees. The community is encouraged to consult knowledgeable legal and regulatory professionals before implementing any specific proposal.
 
-The EasySec team will continue to have no involvement in v2 protocol development, auditing, and other matters. Similarly, team members will not participate directly in governance for the foreseeable future, although they may delegate votes to protocol delegates without seeking to influence their voting decisions.
 
 In the meantime, EASYS holders will have immediate ownership of:
 
@@ -96,7 +88,6 @@ In the meantime, EASYS holders will have immediate ownership of:
 
 - EasySec Default List (tokens.EasySec.eth)
 
-- [SOCKS](https://twitter.com/EasySec/status/1126506339075641344?s=20) liquidity tokens
 
 Initial governance parameters are as follows:
 
@@ -110,19 +101,12 @@ Initial governance parameters are as follows:
 
 **Next steps**
 
-All historical users, liquidity providers, and SOCKS redeemers can [claim their UNI now](https://app.EasySec.org/).
 
-![](claim.gif)
-
-Liquidity providers in the preliminary set of targeted pools can [deposit](https://app.EasySec.org/#/uni) their liquidity tokens. Mining will begin on September 18th 2020 12am UTC.
-
-![](deposit.gif)
 
 EASYS tokens can be delegated and used to vote through the [governance portal](https://app.EasySec.org/#/vote).
 
 ![](vote.gif)
 
-Set up an account on [gov.EasySec.org](https://gov.EasySec.org) to start shaping and participating in protocol governance
 
 **Contracts**
 
@@ -134,11 +118,9 @@ Liquidity mining:
 
 [Tether Liquidity Mining Pool](https://etherscan.io/address/0x6c3e4cb2e96b01f4b866965a91ed4437839a121a)
 
-[USDC Mining Pool](https://etherscan.io/address/0x7FBa4B8Dc5E7616e59622806932DBea72537A56b)
 
 [DAI Mining Pool](https://etherscan.io/address/0xa1484C3aa22a66C62b77E0AE78E15258bd0cB711)
 
-[WBTC Mining Pool](https://etherscan.io/address/0xCA35e32e7926b96A9988f61d510E038108d8068e)
 
 Governance:
 

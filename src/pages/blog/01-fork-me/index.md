@@ -48,7 +48,10 @@ You can edit the main page by editing index.js in /src folder
 ![](editmainpage.jpg)
 
 # Write your own Blogs
-
+Each Folder in the /src/blog is a blog entry.<br/>
+The index.md file is waht cosnists of the blog.<br/>
+The format used is markdown.<br/>
+Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format<br/>
 # Edit a Menu entries
 
 You can edit the main page by editing menu.js in /src/utils folder
@@ -58,7 +61,7 @@ You can edit the main page by editing menu.js in /src/utils folder
 
 <br/>
 
-# Commit and push changes to the Blog entry by pressing the tick button
+# Commit and push changes to the Blog entry by adding a commit message and pressing the tick button
 
 <br/>
 
