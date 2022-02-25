@@ -1,5 +1,5 @@
 ---
-title: Connect to Uniswap
+title: Connect to EasySec
 ---
 
-<ExternalRedirect href="https://docs.uniswap.org/protocol/V1/guides/connect-to-uniswap" />
+<ExternalRedirect href="https://docs.EasySec.org/protocol/V1/guides/connect-to-EasySec" />
