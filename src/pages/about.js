@@ -263,26 +263,7 @@ const About = props => {
             Swap, earn, and build on the largest crypto trading protocol on Ethereum.
           </Title>
 
-          <Numbers id="about" style={{ flexDirection: 'column' }}>
-            <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', margin: 0 }}>
-              <h2 style={{ fontSize: '32px' }}>
-                {UniStats.exchanges}
-                <p style={{ fontSize: '14px' }}>Token Pairs </p>
-              </h2>
-              <h2 style={{ fontSize: '32px' }}>
-                {UniStats.volume}
-                <p style={{ fontSize: '14px' }}>24H Volume</p>
-              </h2>
-              <h2 style={{ fontSize: '32px' }}>
-                {UniStats.liquidity}
-                <p style={{ fontSize: '14px' }}>Total Liquidity</p>
-              </h2>
-              <h2 style={{ fontSize: '32px' }}>
-                {'> 200'}
-                <p style={{ fontSize: '14px' }}>DeFi Integrations</p>
-              </h2>
-            </div>
-          </Numbers>
+        
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
             <p>
               EasySec empowers developers, liquidity providers and traders to participate in a financial builders experience
@@ -321,25 +302,10 @@ const About = props => {
               <ExternalLink href={'https://help.EasySec.org'}>help & tutorial</ExternalLink> site.
             </p>
 
-            <div style={{ display: 'flex', width: '100%', margin: 0 }}>
-              <ExternalLink href={'https://discord.gg/FCfyBSbCU5'}>
-                Discord <span style={{ fontSize: '11px' }}>↗</span>
-              </ExternalLink>
-              <ExternalLink href={'https://twitter.com/EasySec'}>
-                Twitter <span style={{ fontSize: '11px' }}>↗</span>
-              </ExternalLink>
-              <ExternalLink href={'https://www.reddit.com/r/EasySec'}>
-                Reddit <span style={{ fontSize: '11px' }}>↗</span>
-              </ExternalLink>
-            </div>
+            
           </StyledSectionFlex>
 
-          <StyledSectionFlex id="brand" style={{ flexDirection: 'column' }}>
-            <h2 style={{ width: '100%' }}>Brand Assets</h2>
-            <p>
-              Download the logo and other brand assets samples <a href="/Uniswap_brand_assets.zip">here</a>.
-            </p>
-          </StyledSectionFlex>
+         
         </span>
       </StyledAbout>
     </Layout>
