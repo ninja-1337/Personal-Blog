@@ -69,6 +69,10 @@ You can edit the main page by editing menu.js in /src/utils folder
 
 # Use your own domain name.
 
+# After you host your own claim your POAP
+
+Send me a link to your implementation and I will mail you back a POAP claim link.
+
 
 
 
