@@ -20,63 +20,8 @@ EasySec is an [automated liquidity protocol](https://ethereum.org/en/get-eth/#de
 
 For a more in-depth description. Check out the [How EasySec works](/docs/v2/protocol-overview/how-EasySec-works/) from the documentation.
 
-# How are prices determined?
+# What is prerequisite knowledge to fork this Blog?
 
-Prices are determined by the amount of each token in a pool. The smart contract maintains a constant using the following function: `x*y=k`. In this case `x = token0`, `y = token1`, `k = constant`. During each trade a certain amount of one token is removed from the pool for an amount of the other token. To maintain `k`, the balances held by the smart contract are adjusted during the execution of the trade, therefore changing the price.
-
-# I saw a token was trading at X value, but when I traded on EasySec I got a much lower value!
-
-Websites that show token prices, like eitherscan.io or coinmarketcap.com, typically aggregate price data from multiple sources. Some of these sources can be inaccurate, especially regarding new or low volume tokens. If a website or app says a token is worth more than what is shown on EasySec, it is due to the website’s or app's inaccurate data sources. Always check the exchange rate on the EasySec app before trading.
-
-# Why is my swap failing or stuck?
-
-You might be trying to swap a fee on transfer or deflationary token. If so, you have to increase your allowed slippage to account for the fee taken during the swap. Click on the gear for settings and adjust slippage tolerance accordingly.
-
-Otherwise, if your transaction is taking forever or stuck pending, the gas included might be too low and the transaction will not be processed. You probably need to speed up or cancel the transaction in you wallet.
-
-- Fix stuck transactions in MetaMask: [https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction)
-
-- Fix stuck transactions in Trust wallet: [https://www.publish0x.com/the-crypt/quick-guide-to-fixing-stuck-ethereum-transactions-xgdvgkv](https://www.publish0x.com/the-crypt/quick-guide-to-fixing-stuck-ethereum-transactions-xgdvgkv)
-
-# Why is my approve stuck?
-
-If you speed up an approve, EasySec can't detect the new transaction. Open your wallet in the interface and click "clear all" then try refreshing the page.
-
-# How do I find X token?
-
-If you can't find a token in the default list, find the token address using etherscan and paste that address into the search field.
-
-# How do I add a logo for a token?
-
-EasySec pulls from the trustwallet asset repository on github. [https://github.com/trustwallet/assets](https://github.com/trustwallet/assets) Add your token icon to that repo and it will appear on the frontend and on info.
-
-# How can I add a token to EasySec?
-
-EasySec is compatible with any ERC-20 token in the Ethereum ecosystem. If you want your project to be searchable in their interface, you should seek to be added to a reputable token list or share a link to your token using query parameters. Once loaded via link, the token will be added to their interface.
-
-Another option is to open a request using github [issues](https://github.com/EasySec/EasySec-frontend/issues/new?assignees=&labels=token+request&template=token-request.md&title=).
-
-The EasySec team makes no guarantees nor provides any timeline for such requests. Nor will the team ever charge or request funds. We've added many UX features to make it easier to share a new token with communities - features such as local storage support and custom linking. Please make use of them.
-
-# Why does my transaction cost X?
-
-Ethereum requires gas to execute each transaction. You can also check ETH gas station for the current prices required to complete transactions. Creating a EasySec pool is a slightly costlier transaction because you are executing a more complex smart contract. Read more about how gas works in Ethereum.
-
-# How can I see my liquidity provider fees?
-
-There are many community built tools like [https://www.EasySec.com/](https://www.EasySec.com/), [https://www.zapper.fi/dashboard](https://www.zapper.fi/dashboard) and [https://zerion.io/](https://zerion.io/). EasySec provides no guarantees the information on these sites is correct.
-
-# I accidentally transferred tokens directly to a pair contract, is there any way I can get them back?
-
-EasySec token pair contracts are ownerless. We have no special control over the pair contracts' functionality; because of this, any tokens accidentally transferred to the token contract itself are lost forever.
-
-# I updated my token via a proxy contract, but the EasySec information page is showing the old symbol / name!
-
-[Info.EasySec](https://info.EasySec.org/) reads the details of new tokens when they're added to the subgraph. There may be some circumstances where an old symbol or name isn't updated if the token was updated with a proxy contract. A guide to fix this yourself is forthcoming. In the meantime, reach out with the details on our developer discord.
-
-# My swap failed with code "EXPIRED", what happened?
-
-If a swap takes more than 20 minutes to execute, the router is programmed to fail the transaction. This is to protect the user from extreme swings in prices that can occur while the transaction is pending. If this happens, your tokens will still be in your wallet, but the gas fees paid are not recoverable. To keep this from happening, use a high enough gas price to have your transaction mined in under 20 minutes. This usually falls under "Standard" or "Fast" in most gas price calculators.
 
 # EasySec tools and resources
 
