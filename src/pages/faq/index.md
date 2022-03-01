@@ -22,6 +22,13 @@ For a more in-depth description. Check out the [How EasySec works](/docs/v2/prot
 
 # What is prerequisite knowledge to fork this Blog?
 
+# What is prerequisite knowledge to fork SushiSwap?
+
+# What is prerequisite knowledge to become a WEB3 Developer?
+
+# What is the aproximate time it takes to become a WEB3 Developer?
+
+# How Can I utilise my WEB3 Developer knowledge?
 
 # EasySec tools and resources
 
