@@ -1,5 +1,5 @@
 ---
-title: "Elias Evangelou Year in Review: 2021"
+title: "CryptoCurrency A Year in Review: 2021"
 date: '2022-01-27'
 author: 'Elias Evangelou '
 featuredImage: ./banner.jpg
