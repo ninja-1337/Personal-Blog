@@ -32,7 +32,7 @@ const menu = [
       { name: 'Discord', link: 'https://discord.gg/FCfyBSbCU5' },
       { name: 'Twitter', link: 'https://twitter.com/Uniswap' },
       { name: 'GitHub', link: 'https://github.com/ninja-1337' },
-      { name: 'Reddit', link: 'https://www.reddit.com/r/Uniswap' }
+      { name: 'Reddit', link: 'https://www.reddit.com/r/Unisw' }
     ]
   },
   {
