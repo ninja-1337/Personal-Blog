@@ -260,7 +260,7 @@ const About = props => {
       <StyledAbout>
         <span style={{ marginTop: '5rem' }}>
           <Title style={{ paddingBottom: '4rem' }}>
-            Swap, earn, and build on the largest crypto trading protocol on Ethereum.
+           My personal blog covering topics such as cryptocurrency, blockchain development, ethical hacking and Computer Science.
           </Title>
 
         
@@ -280,22 +280,14 @@ const About = props => {
 
           <StyledSectionFlex id="jobs" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Jobs</h2>
-            <p>Always looking for talented people to join the Builders community!</p>
+            <p>Always looking for talented people to join a Builders community!</p>
 
-            <span>
-              <a href="https://jobs.lever.co/EasySec">
-                {' '}
-                <h3>Full list of roles available at StartCy Labs</h3>
-              </a>
-            </span>
+           
           </StyledSectionFlex>
 
           <StyledSectionFlex id="contact" style={{ flexDirection: 'column' }}>
-            <h2 style={{ width: '100%' }}>Contact</h2>
-            <p>
-              To get in touch, please email <a href="mailto:contact@EasySec.org">contact@EasySec.org</a>
-            </p>
-
+      
+           
             <p>
               We encourage anyone facing issues with their wallet, transaction or EasySec related question to join our
               active community discord or explore the{' '}
