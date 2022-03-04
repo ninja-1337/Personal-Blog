@@ -289,8 +289,7 @@ const About = props => {
       
            
             <p>
-              We encourage anyone facing issues with their wallet, transaction or EasySec related question to join our
-              active community discord or explore the{' '}
+             
               <ExternalLink href={'https://help.EasySec.org'}>help & tutorial</ExternalLink> site.
             </p>
 
