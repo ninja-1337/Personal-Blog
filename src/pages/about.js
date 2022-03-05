@@ -260,15 +260,17 @@ const About = props => {
       <StyledAbout>
         <span style={{ marginTop: '5rem' }}>
           <Title style={{ paddingBottom: '4rem' }}>
-           My personal blog covering topics such as cryptocurrency, blockchain development, ethical hacking and Computer Science.
+           My personal blog 
           </Title>
 
         
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
-            <p>
+            <h1>Covering topics such as cryptocurrency, blockchain development, ethical hacking and Computer Science.</h1>
+            <h1>
+          
               EasySec empowers developers, liquidity providers and traders to participate in a financial builders experience
               that is open and accessible to all.
-            </p>
+            </h1>
             <p>We are committed to open source software and building on the decentralized web.</p>
 
             <div style={{ display: 'flex', width: '100%', margin: 0 }}>
