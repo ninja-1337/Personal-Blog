@@ -268,7 +268,7 @@ const About = props => {
             <h1>Covering topics such as cryptocurrency, blockchain development, ethical hacking and Computer Science.</h1>
             <h1>
           
-              EasySec empowers developers, liquidity providers and traders to participate in a financial builders experience
+              EasySec empowers developers to participate in a financial builders experience
               that is open and accessible to all.
             </h1>
             <p>We are committed to open source software and building on the decentralized web.</p>
