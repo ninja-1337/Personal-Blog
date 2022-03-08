@@ -27,6 +27,8 @@ For a more in-depth description. Check out the [How EasySec works](/docs/v2/prot
 # What is prerequisite knowledge to become a WEB3 Developer?
 
 # What is the aproximate time it takes to become a WEB3 Developer?
+There are various answers depending on your experience.
+Lets divide this into 3 different skill levels
 
 # How Can I utilise my WEB3 Developer knowledge?
 
